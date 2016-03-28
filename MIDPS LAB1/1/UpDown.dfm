@@ -1,0 +1,101 @@
+object Form1: TForm1
+  Left = 381
+  Top = 160
+  Width = 681
+  Height = 393
+  Caption = 'MIPS'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 104
+    Top = 16
+    Width = 469
+    Height = 42
+    Caption = 'Incrementare decrementare contor'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clRed
+    Font.Height = -31
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 72
+    Top = 80
+    Width = 545
+    Height = 27
+    Caption = 'Respectiv a sensului de variatie a variabilei i din caseta Edit1'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clBlue
+    Font.Height = -20
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 28
+    Top = 149
+    Width = 145
+    Height = 57
+    Caption = 'UP'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 28
+    Top = 232
+    Width = 145
+    Height = 57
+    Caption = 'Down'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Edit1: TEdit
+    Left = 208
+    Top = 192
+    Width = 201
+    Height = 54
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    Text = '0'
+  end
+  object Button3: TButton
+    Left = 432
+    Top = 232
+    Width = 145
+    Height = 57
+    Caption = 'Exit'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+end
